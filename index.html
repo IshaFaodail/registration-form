@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="form">
+        <h1 id="regform">REGISTRATION FORM</h1>
+        <div class="fir-las">
+            <h2 class="names">NAME : </h2>
+            <input class="firstname" placeholder=" first name please..." type="text">
+            <input class="lastname" placeholder=" last name please..." type="text">
+        </div>
+        <div class="ages">
+            <h2 class="names">AGE :</h2>
+            <input type="text" class="age" placeholder="age here">
+        </div>
+        <div class="gen">
+            <h2 class="names">GENDER :</h2>
+            <h3 class="female">FEMALE </h3>
+            <input type="radio" name="gender" class="gender">
+            <h3 class="male">MALE </h3>
+            <input type="radio" name="gender" class="gender">
+        </div>
+        <div class="cities">
+            <h3 class="city">CITY CENTER :</h3>
+            <select name="city" id="city" class="city">
+                <option value="" class="select">select city</option>
+                <option value="UDAIPUR"> UDAIPUR</option>
+                <option value="AJMER">AJMER</option>
+                <option value="BHILWARA">BHILWARA</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+</body>
+
+</html>

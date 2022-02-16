@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    width: 500px;
+    height: 80vh;
+    text-align: center;
+}
+
+.fir-las{
+   /* background-color: aqua; */
+    display: flex;
+    padding-left: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.ages{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.gen{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    align-items: center;
+
+}
+.cities{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sub{
+    display:flex ;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ages h2{
+    margin-right: 50px;
+}
+.gen h3{
+    margin-left: 30px;
+}
+
+.gen input{
+    margin-left: 15px;
+}
+
+.cities select{
+    margin-left: 15px;
+}
+button{
+    margin-top: 40px;
+    height: 30px;
+    width:90px;
+    color: rgb(247, 235, 235);
+    background-color: rgb(78, 4, 248);
+    border: none;
+    border-radius: 19px;
+
+}
+button:hover{
+    text-decoration-line:underline;
+    cursor: pointer;
+    background-color: rgb(187, 136, 127);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+}
